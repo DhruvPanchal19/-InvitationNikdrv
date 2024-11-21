@@ -1,0 +1,252 @@
+/*navbar css begining*/
+.navbar > nav > .leftnav-items, .navbar > nav > .rightnav-items {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+}
+
+.navbar > nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  font-family: Balgeri;
+}
+
+.navbar > nav > .leftnav-items > a, .navbar > nav > .rightnav-items > a {
+  text-decoration: none;
+  color: #6f4e37;
+}
+
+/*navbar css End*/
+
+/*hero css begining*/
+.imagebg > img {
+  width: 340px;
+  height: auto;
+  border-radius: 270px;
+}
+
+.images-content {
+  display: inline-flex;
+  flex-direction: row;
+  gap: 30px;
+  width: calc(100% - 38%);
+  margin-top: 4rem;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.nikDrv {
+  font-size: 100px;
+  position: absolute;
+  color: #6f4e37;
+  background-image: linear-gradient(45deg, #6f4e37 63%, #ffefd5 100%, #ffefd5 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 11;
+}
+
+.texthead {
+  width: 37%;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.getting-container {
+  margin-top: 10rem;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 4px;
+  color: #6f4e37;
+  background-image: linear-gradient(45deg, #6f4e37 63%, #ffefd5 100%, #ffefd5 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.getting-container > .getting-text {
+  font-size: 32px;
+}
+
+.getting-container > .getting-date {
+  font-size: 46px;
+  line-height: normal;
+}
+
+ul.inviter-content {
+  margin-top: 4px;
+  margin-bottom: 4px;
+  padding-left: 1.5rem;
+}
+
+.labelinviter {
+  font-size: 24px;
+}
+
+.inviter-container {
+  margin-top: 3rem;
+  margin-left: 1rem;
+}
+
+ul.inviter-content > li {
+  font-size: 19px;
+  letter-spacing: 0.2px;
+}
+
+/*hero css End*/
+section.invitation {
+  background-color: #6f4e37;
+  color: #ffefd5;
+  padding: 4rem;
+}
+
+.invitation-content {
+  max-width: 660px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.invitation-content > p {
+  font-family: poppins;
+  font-size: 22px;
+}
+
+.invitation-content > .joinus {
+  font-family: balgeri;
+  font-size: 34px;
+  padding-right: 10rem;
+}
+
+.invitation-content > .youareinvited {
+  font-family: balgeri;
+  font-size: 60px;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+
+.invitation-content > p {
+  margin: 0;
+  padding-bottom: 1rem;
+}
+
+
+/*events css*/
+.ganeshsthapna {
+  mix-blend-mode: multiply;
+  filter: contrast(1);
+}
+
+.event-content {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  animation: sectionimg linear forwards;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 500px;
+}
+
+.imgcontent > img {
+  width: 100px;
+  height: auto;
+}
+
+
+.line {
+  width: calc(100% - 430px);
+  height: 1px;
+  background-color: #6f4e37;
+  border-radius: 6px;
+}
+
+.imgcontent {
+  width: 100px;
+  height: auto;
+}
+
+.timecontent {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 1px;
+  align-items: start;
+  width: 300px;
+}
+
+.timecontent .timecontentNAme {
+  font-family: balgeri;
+  font-size: 24px;
+}
+
+.timecontent .timecontenttime {
+  font-family: 'Poppins';
+  font-weight: 550;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.imgcontent.dinner > img {
+  mix-blend-mode: darken;
+}
+
+.events-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.location-svg > img {
+  width: 100px;
+}
+
+.location-content {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  gap: 10px;
+}
+
+.location-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.location-details {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.locationtitle {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: balgeri;
+  letter-spacing: 1px;
+}
+
+.locationline {
+  font-size: 19px;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+.photo-galleryv{
+  animation-name: animationgrid;
+  animation-timeline: view();
+  animation-range-start: cover;
+  animation-range-end: 1500px
+}

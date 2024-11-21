@@ -1,0 +1,177 @@
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-size: 13px;
+  }
+
+  .navbar {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+  }
+
+  .nikDrv {
+    font-size: 32px;
+    position: unset;
+  }
+
+  .getting-container {
+    margin-top: 10px;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .getting-container > .getting-text {
+    font-size: 24px;
+  }
+
+  .getting-container > .getting-date {
+    font-size: 26px;
+    line-height: normal;
+  }
+
+  .labelinviter {
+    font-size: 15px;
+  }
+
+  .inviter-container {
+    margin-left: 10px;
+    margin-top: 30vh;
+  }
+
+  ul.inviter-content > li {
+    font-size: 14px;
+    letter-spacing: 0.2px;
+  }
+
+  ul.inviter-content {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 0.5rem;
+  }
+
+  .images-content {
+    gap: 30px;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .texthead {
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: start;
+    position: absolute;
+    z-index: 12;
+  }
+
+  .hero-container {
+    position: relative;
+  }
+
+  .hero {
+    padding: 15px 15px 15px 25px;
+  }
+
+  .images-content > div:nth-child(1), .images-content > div:nth-child(3) {
+    display: none;
+  }
+
+  .imagebg > img {
+    width: 284px;
+    height: auto;
+    border-radius: 270px 270px 10px 10px;
+  }
+
+  .imagebg::before {
+    content: ''; /* Required for pseudo-elements */
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Ensure the overlay doesn't interfere with interaction */
+    z-index: 1; /* Place above the image but below any content in the .imagebg */
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%);
+  }
+  .line{
+    display:none;
+  }
+  .event-content{
+    position: relative;
+    flex-direction: column;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .timecontent{
+    /* position:absolute; */
+    background: rgb(111 78 55 / 20%);
+    padding: 6px 16px;
+    border-radius: 12px;
+    width: 230px;
+  }
+  .timecontent .timecontentNAme{
+    font-size: 18px;
+  }
+  .timecontent .timecontenttime{
+    font-size: 15px;
+  }
+
+  .location-container{
+    flex-direction:column;
+  }
+  .imagebg:nth-child(2) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .location-content{
+    width: 100%;
+    gap: 6px;
+  }
+  .locationtitle{
+    font-size: 14px;
+  }
+  .location-svg>img{
+    width: 60px;
+  }
+  .locationline{
+    font-size: 15px;
+  }
+  .maLeft{
+    animation-name: fadeInDown;
+    animation-timeline: view();
+    animation-range-start: cover;
+    animation-range-end: 500px;
+    animation-duration: 0.4s;
+  }
+  .Dhruv{
+    animation-name: animationgrid;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  #navbar {
+    border: 1px solid #000;
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  #navbar {
+    border: 1px solid #000;
+
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  #navbar {
+    border: 1px solid #000;
+  }
+}
+
+@keyframes sectionimg {
+  from { scale: 0.8; opacity: 0;}
+  to { scale: 1; opacity: 1;}
+}
+
