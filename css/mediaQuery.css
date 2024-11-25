@@ -138,7 +138,7 @@
   .locationline{
     font-size: 15px;
   }
-  .maLeft{
+  .maLeft, .maRight{
     animation-name: fadeInDown;
     animation-timeline: view();
     animation-range-start: cover;

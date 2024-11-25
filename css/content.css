@@ -113,9 +113,11 @@ section.invitation {
   margin-right: auto;
 }
 
-.invitation-content > p {
+.invitation-content  p {
   font-family: poppins;
   font-size: 22px;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 .invitation-content > .joinus {
@@ -130,12 +132,6 @@ section.invitation {
   line-height: 46px;
   margin-bottom: 20px;
 }
-
-.invitation-content > p {
-  margin: 0;
-  padding-bottom: 1rem;
-}
-
 
 /*events css*/
 .ganeshsthapna {

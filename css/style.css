@@ -282,3 +282,7 @@ body {
   background: #fff;
   color: #6f4e37;
 }
+* ::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
