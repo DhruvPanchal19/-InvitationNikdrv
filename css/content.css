@@ -220,6 +220,7 @@ section.invitation {
   margin-right: auto;
   gap: 1rem;
   margin-bottom: 3rem;
+  justify-content: center;
 }
 
 .location-details {
