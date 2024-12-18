@@ -124,6 +124,7 @@ section.invitation {
   font-family: balgeri;
   font-size: 34px;
   padding-right: 10rem;
+  width: 135px;
 }
 
 .invitation-content > .youareinvited {
