@@ -148,6 +148,9 @@
   .Dhruv{
     animation-name: animationgrid;
   }
+  .photo-galleryv{
+    animation-range-end: 1100px
+  }
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
