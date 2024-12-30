@@ -249,3 +249,7 @@ section.invitation {
   animation-range-end: 1500px
 }
 
+.locations>a {
+  text-decoration: none;
+  color: #000;
+}
